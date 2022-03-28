@@ -1,17 +1,17 @@
 
 echo "gnome tweak tools AND debloat linux"
-sudo dnf install gnome-tweak-tool yum -y
-sudo dnf remove firefox 
+sudo dnf install gimp gnome-tweak-tool neofetch blender yum -y
+sudo dnf remove firefox gnome-terminal -y
 
 
 echo "Setting up gaming"
-sudo dnf install lutris steam wine gamemode 
+sudo dnf install lutris steam wine retroarch gamemode -y
 sudo dnf install dnf-plugins-core 
 
 echo "Setting up brave"
 sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/ 
 sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc 
-sudo dnf install brave-browser 
+sudo dnf install brave-browser -y
 
 echo "Setting up vsCode"
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
