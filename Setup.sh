@@ -1,7 +1,7 @@
 
 echo "gnome tweak tools AND debloat linux"
 sudo dnf install gimp gnome-tweak-tool neofetch blender yum -y
-sudo dnf remove firefox gnome-terminal -y
+sudo dnf remove firefox -y
 
 
 echo "Setting up gaming"
