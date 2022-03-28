@@ -1,7 +1,7 @@
 
 echo "gnome tweak tools AND debloat linux"
 sudo dnf install gimp gnome-tweak-tool neofetch blender yum -y
-sudo dnf remove firefox -y
+sudo dnf remove firefox libreoffice-writer libreoffice-math libreoffice-impress libreoffice-calc libreoffice-drawing libreoffice-formula -y
 
 
 echo "Setting up gaming"
