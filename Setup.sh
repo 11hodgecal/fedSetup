@@ -1,5 +1,5 @@
 
-echo "gnome tweak tools AND debloat linux"
+echo "gnome tweak tools and utitys AND debloat linux"
 sudo dnf install pitivi gimp gnome-tweak-tool neofetch blender yum -y
 sudo dnf remove firefox libreoffice-writer libreoffice-math libreoffice-impress libreoffice-calc libreoffice-drawing libreoffice-formula -y
 
