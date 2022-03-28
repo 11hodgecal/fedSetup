@@ -24,4 +24,4 @@ sudo dnf install dotnet-sdk-5.0 -y
 sudo dnf install python3 -y
 sudo dnf install python3-pip -y
 sudo dnf install pipenv -y
-pip install seaborn pandas scipy matplotlib numpy protonup -y
+pip install seaborn pandas scipy matplotlib numpy protonup 
