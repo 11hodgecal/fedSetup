@@ -27,5 +27,3 @@ sudo dnf install pipenv -y
 pip install seaborn pandas scipy matplotlib numpy protonup 
 sudo npm install gtop -g -y
 
-git clone https://github.com/material-shell/material-shell.git && cd material-shell && make install -y
-gnome-extensions enable material-shell@papyelgringo -y
