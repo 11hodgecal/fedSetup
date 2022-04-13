@@ -1,8 +1,8 @@
 
 echo "gnome tweak tools and utitys AND debloat linux"
-sudo dnf install pitivi gimp gnome-tweak-tool neofetch blender yum -y
+sudo dnf install pitivi git gimp gnome-tweak-tool neofetch blender yum -y
 sudo dnf remove firefox -y
-
+sudo dnf install git -y
 
 echo "Setting up gaming"
 sudo dnf install lutris steam wine retroarch gamemode -y
@@ -26,3 +26,6 @@ sudo dnf install python3-pip -y
 sudo dnf install pipenv -y
 pip install seaborn pandas scipy matplotlib numpy protonup 
 sudo npm install gtop -g -y
+
+git clone https://github.com/material-shell/material-shell.git && cd material-shell && make install -y
+gnome-extensions enable material-shell@papyelgringo -y
