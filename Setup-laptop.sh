@@ -21,6 +21,7 @@ sudo dnf install pipenv -y
 pip install seaborn pandas scipy matplotlib numpy protonup 
 sudo npm install gtop -g -y
 
+echo "adding drivers"
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
