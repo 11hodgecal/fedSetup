@@ -1,6 +1,6 @@
 
 echo "gnome tweak tools and utitys AND debloat linux"
-sudo dnf install git gimp gnome-tweak-tool neofetch blender yum -y
+sudo dnf install git gimp kitty neofetch blender firefox -y
 sudo dnf install git -y
 
 echo "Setting up gaming"
@@ -20,13 +20,3 @@ sudo dnf install python3-pip -y
 sudo dnf install pipenv -y
 pip install seaborn pandas scipy matplotlib numpy protonup 
 sudo npm install gtop -g -y
-
-echo "adding drivers"
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-
-sudo dnf install akmod-nvidia -y
-sudo dnf install xorg-x11-drv-nvidia-cuda -y
-sudo dnf install vdpauinfo libva-vdpau-driver libva-utils-y
-
-sudo reboot -y
